@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Modern Finance Solutions Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Global styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #282c34;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1em;
+            margin-bottom: 20px;
+            color: #555;
+        }
+        .services, .portfolio {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        .service, .portfolio-item {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .service i, .portfolio-item i {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            color: #3498db;
+        }
+        .service h3, .portfolio-item h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .cta-button {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .cta-button:hover {
+            background-color: #2980b9;
+        }
+        footer {
+            background-color: #282c34;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 0.9em;
+        }
+
+        /* Media Queries for Responsiveness */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+            .services, .portfolio {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Modern Finance Solutions</h1>
+        <p>Your trusted partner for innovative financial solutions in the digital age.</p>
+    </header>
+
+    <section class="services">
+        <h2>Our Services</h2>
+        <div class="service">
+            <i class="fas fa-calculator"></i>
+            <h3>Financial Planning</h3>
+            <p>We provide tailored financial plans to help you achieve your financial goals, whether personal or business-related.</p>
+        </div>
+        <div class="service">
+            <i class="fas fa-rocket"></i>
+            <h3>Investment Strategies</h3>
+            <p>Our experts design dynamic investment strategies that align with market trends and your risk tolerance.</p>
+        </div>
+        <div class="service">
+            <i class="fas fa-chart-line"></i>
+            <h3>Market Analysis</h3>
+            <p>Stay ahead with in-depth market analysis and forecasting to make informed financial decisions.</p>
+        </div>
+    </section>
+
+    <section class="portfolio">
+        <h2>Portfolio Showcase</h2>
+        <div class="portfolio-item">
+            <i class="fas fa-building"></i>
+            <h3>Corporate Finance Solutions</h3>
+            <p>We provide comprehensive financial solutions for businesses looking to expand, streamline, or restructure their operations.</p>
+        </div>
+        <div class="portfolio-item">
+            <i class="fas fa-wallet"></i>
+            <h3>Personal Wealth Management</h3>
+            <p>Helping individuals manage and grow their wealth through personalized portfolio management and advisory services.</p>
+        </div>
+        <div class="portfolio-item">
+            <i class="fas fa-piggy-bank"></i>
+            <h3>Savings & Retirement</h3>
+            <p>Ensuring a secure future with customized savings and retirement plans designed to meet your long-term objectives.</p>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>Get in touch to learn how we can help you achieve financial success.</p>
+        <button class="cta-button">Contact Us</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Modern Finance Solutions. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
